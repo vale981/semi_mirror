@@ -13,3 +13,15 @@ Eingebunden wird über:
 
 \include{./Kaptitel/nnn/nn.tex}
 ```
+Also z.B. Kapitel 1:
+```
+#!tex
+
+\include{./Kaptitel/001/10.tex}
+```
+Kapitel 1.1:
+```
+#!tex
+
+\include{./Kaptitel/001/11.tex}
+```
