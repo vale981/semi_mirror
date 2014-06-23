@@ -1,0 +1,34 @@
+%Packages
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[style=authortitle,backend=bibtex,isbn=false]{biblatex}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage{fontspec}
+\usepackage{geometry}
+
+%Dokument Definition
+\author{Valentin Boettcher}
+\date{\today}
+\title{Semi}
+\geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=30mm,
+headsep=10mm, footskip=12mm}
+\setmainfont[Scale=1.2]{Calibri}
+\bibliography{cool}
+
+%Dokument
+\begin{document}
+%Title
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+%Inhalt
+\tableofcontents
+
+%Dokument-Include
+\include{./Kaptitel/01/001}
+
+%Literatur
+\printbibliography	
+\end{document}
