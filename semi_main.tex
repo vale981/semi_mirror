@@ -6,6 +6,7 @@
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage{fontspec}
 \usepackage{geometry}
+\usepackage{blindtext}
 
 %Dokument Definition
 \author{Valentin Boettcher}
@@ -13,7 +14,7 @@
 \title{Semi}
 \geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=30mm,
 headsep=10mm, footskip=12mm}
-\setmainfont[Scale=1.2]{Calibri}
+\setmainfont{Calibri}
 \bibliography{cool}
 
 %Dokument
@@ -30,5 +31,6 @@ headsep=10mm, footskip=12mm}
 \include{./Kaptitel/01/001}
 
 %Literatur
+\setlength{\baselineskip}{2\baselineskip}
 \printbibliography	
 \end{document}
