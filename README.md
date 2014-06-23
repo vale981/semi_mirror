@@ -6,7 +6,7 @@ Dies Bitte beachten!
 
 ### Konventionen ###
 Jedes Kapitel/Unterkapitel hat eine eigene Datei, welche der Ordner- und Dateistriktur: /Kaptitel/nnn/nn.tex folgt.
-Eingebunden wird über
+Eingebunden wird über:
 
 ```
 #!tex
