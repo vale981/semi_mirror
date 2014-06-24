@@ -30,7 +30,7 @@ Jedes Kapitel/Unterkapitel trägt eine Nummer (automatisch...)!
 Im Folgenden eine kleine Anleitung für LaTeX:
 Im Grunde ist der Syntax recht einfach. Um text zu erzeugen muss man ihn einfach nur eingeben. Dennoch ist es wichtig einiges zu beachten.
 Da ich das Hauptdokument mit Präambel schon erstellt habe hier einfach die Basics.
-
+#Kapitel
 Ein neues Kapitel erstellt man mit:
 ```
 #!tex
