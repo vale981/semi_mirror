@@ -176,4 +176,42 @@ Eine mehrfach verschachtelte Aufzählung die beim Programmieren schon fast verwi
 \end{itemize}
 ```
 Daraus resultiert:
+
 ![itemize.jpg](https://bitbucket.org/repo/RAo6K5/images/287777404-itemize.jpg)
+
+Zahlen/Enumerate:
+
+```
+#!tex
+
+%eine nummerierte Aufzählung
+\begin{enumerate}
+\item Das erste Item
+\item Das zweite Item
+\item Das dritte Item
+\end{enumerate}
+```
+
+Unterpunkte Auf gleiche weise wie Itemize.
+Wenn Itemize in Enumerate --> Anstriche:
+
+```
+#!tex
+
+\begin{enumerate}
+    \item Punkt 1
+    \item Punkt 2
+    \begin{enumerate}
+        \item Ebene 2 Punkt1 
+        \item Ebene 2 Punkt2
+        \begin{enumerate}
+            \item Ebene 3 Punkt1 
+            \item Ebene 3 Punkt2
+	\end{enumerate}
+    \end{enumerate}
+    \item Punkt 3
+\end{enumerate}
+```
+Daraus resultiert:
+
+![Enumerate.png](https://bitbucket.org/repo/RAo6K5/images/3140275116-Enumerate.png)
