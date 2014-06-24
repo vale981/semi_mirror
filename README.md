@@ -236,7 +236,7 @@ Ein Beispiel Eintrag:
 }
 ```
 Ganz oben steht der Biblatex Tag mit dessen hilfe ihr später zitiert. Er liegt meistens in der Form. NachnahmeErsterAutor+Veröffentlichungsjahr vor.
-Diese Einträge könnt ihr von [Literatur Generator](http://www.literatur-generator.de/)beziehen.
+Diese Einträge könnt ihr von [Literatur Generator](http://www.literatur-generator.de/) beziehen.
 
 Zitiert wird bei uns nur mit Fußnote:
 
