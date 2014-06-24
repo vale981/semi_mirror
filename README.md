@@ -4,7 +4,6 @@
 * An Main Datei nur Includierung ändern!
 
 Dies Bitte beachten!
-
 ### Konventionen ###
 Jedes Kapitel/Unterkapitel hat eine eigene Datei, welche der Ordner- und Dateistriktur: /Kaptitel/nnn/nn.tex folgt.
 Eingebunden wird über:
@@ -31,6 +30,7 @@ Jedes Kapitel/Unterkapitel trägt eine Nummer (automatisch...)!
 Im Folgenden eine kleine Anleitung für LaTeX:
 Im Grunde ist der Syntax recht einfach. Um text zu erzeugen muss man ihn einfach nur eingeben. Dennoch ist es wichtig einiges zu beachten.
 Da ich das Hauptdokument mit Präambel schon erstellt habe hier einfach die Basics.
+
 Ein neues Kapitel erstellt man mit:
 ```
 #!tex
@@ -46,4 +46,32 @@ Unterunterkapitel mit
 ```
 #!tex
 \subsubsection{NAME}
+```
+Der geforderte Blocksatz für die Arbeit ist eingestellt, will man aber die Bündigkeit ändern so nutzt man Folgenden Code:
+
+```
+#!tex
+%Links
+\raggedright{TEXT}
+%Rechts
+\raggedleft{TEXT}
+%Mitte
+\centering{TEXT}
+```
+Möchte man größere Textstellen beeinflussen:
+
+```
+#!tex
+%Links
+\begin{flushleft}
+TEXT
+\end{flushleft}
+%Rechts
+\begin{flushright}
+TEXT
+\end{flushright}
+%Mitte
+\begin{center}
+TEXT
+\end{center}
 ```
