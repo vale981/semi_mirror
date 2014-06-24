@@ -2,7 +2,7 @@
 * Compiler --> XeLaTeX
 * Compilierfolge: XeLaTeX --> Bib(la)tex --> XeLaTeX --> XeLaTeX
 * An Main Datei nur Includierung ändern!
-
+* nur \emph!
 Dies Bitte beachten!
 #Konventionen #
 Jedes Kapitel/Unterkapitel hat eine eigene Datei, welche der Ordner- und Dateistriktur: /Kaptitel/nnn/nn.tex folgt.
@@ -76,6 +76,15 @@ TEXT
 TEXT
 \end{center}
 ```
+#Zeilenumbrüche
+Möchte man einen manuellen Zeilenumbruch einfügen so genügen zwei Backslash an dieser Stell: 
+
+```
+#!tex
+
+Text\\Text nach Zeilenümbruch
+```
+
 #Kommentare
 Es gibt zwei Arten von Kommentaren. Den Code Kommentar und den \todo Kommentar.
 
@@ -104,3 +113,21 @@ TextTextText\todo{Kommentart TEXT}
 %Untrennbar mit Wort verbunden
 TextTextText~\todo{Kommentart TEXT}
 ```
+Der Todo Kommentar ist nur im Notfall anzuwenden!
+
+#Text hervorheben
+Man kann in LaTeX text sehr einfach hervorheben.
+Dazu gibt es mehrere Möglichkeiten:
+
+```
+#!tex
+%Hervorhebung, wenn schrift Normal --> Kursiv, wenn Kursiv --> Normal
+\emph{text}
+%Fett
+\textbf{text}
+%Unterstreichen
+\underline{text}
+%Schreibmaschine
+\texttt{text}
+```
+Wir Nutzen aber nur \emph!
