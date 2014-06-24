@@ -215,3 +215,43 @@ Wenn Itemize in Enumerate --> Anstriche:
 Daraus resultiert:
 
 ![Enumerate.png](https://bitbucket.org/repo/RAo6K5/images/3140275116-Enumerate.png)
+
+#Bibliographie
+Nach den basics nun die Créme de la Créme: Die Bibliographie.
+Um ein buch zitieren zu können müsst ihr es in die Literaturdatenbank aufnehmen. (bei uns: cool.bib)
+Ein Beispiel Eintrag:
+
+```
+#!tex
+
+@BOOK{Fritzgerland2001,
+  AUTHOR       = "Fitzgerald, B. and Russo, N. and DeGross, J.",
+                 %Mehrere Autoren werden mit 'and' eingetragen
+  TITLE        = "{R}ealigning {R}esearch and {P}ractice in {I}nformation {S}ystems
+                 {D}evelopment: {T}he {S}ocial and {O}rganizational {P}erspective",
+  PUBLISHER    = "Kluwer Academic Press",
+  YEAR         = "2001",
+  ADDRESS      = "Boston",
+  NOTE         = "Eine optionale Notiz"
+}
+```
+Ganz oben steht der Biblatex Tag mit dessen hilfe ihr später zitiert. Er liegt meistens in der Form. NachnahmeErsterAutor+Veröffentlichungsjahr vor.
+Diese Einträge könnt ihr von [Literatur Generator](http://www.literatur-generator.de/)beziehen.
+
+Zitiert wird bei uns nur mit Fußnote:
+
+```
+#!tex
+
+%Zitat, in eckige Klammern: Seitenzahl
+\footcite[SEITENZAHL]{Biblatex Tag}
+
+%Für SEITENZAHLf. (z.B. S.23f.)
+\footcite[SEITENZAHL\psq]{Biblatex Tag}
+
+%Für SEITENZAHLff. (z.B. S.23ff.)
+\footcite[SEITENZAHL\psqq]{Biblatex Tag}
+```
+So leicht wird Zitiert.
+Das Literaturverzeichnis erstellt sich automatisch.
+Gutes Gelingen :D
