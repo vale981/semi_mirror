@@ -1,10 +1,10 @@
-### Wichtig ###
+#Wichtig #
 * Compiler --> XeLaTeX
 * Compilierfolge: XeLaTeX --> Bib(la)tex --> XeLaTeX --> XeLaTeX
 * An Main Datei nur Includierung ändern!
 
 Dies Bitte beachten!
-### Konventionen ###
+#Konventionen #
 Jedes Kapitel/Unterkapitel hat eine eigene Datei, welche der Ordner- und Dateistriktur: /Kaptitel/nnn/nn.tex folgt.
 Eingebunden wird über:
 
@@ -26,11 +26,11 @@ Kapitel 1.1:
 \include{./Kaptitel/001/11.tex}
 ```
 Jedes Kapitel/Unterkapitel trägt eine Nummer (automatisch...)!
-### Anleitung ###
+# Anleitung #
 Im Folgenden eine kleine Anleitung für LaTeX:
 Im Grunde ist der Syntax recht einfach. Um text zu erzeugen muss man ihn einfach nur eingeben. Dennoch ist es wichtig einiges zu beachten.
 Da ich das Hauptdokument mit Präambel schon erstellt habe hier einfach die Basics.
-#Kapitel
+###Kapitel
 Ein neues Kapitel erstellt man mit:
 ```
 #!tex
@@ -47,6 +47,7 @@ Unterunterkapitel mit
 #!tex
 \subsubsection{NAME}
 ```
+#Bündigkeit
 Der geforderte Blocksatz für die Arbeit ist eingestellt, will man aber die Bündigkeit ändern so nutzt man Folgenden Code:
 
 ```
@@ -74,4 +75,32 @@ TEXT
 \begin{center}
 TEXT
 \end{center}
+```
+#Kommentare
+Es gibt zwei Arten von Kommentaren. Den Code Kommentar und den \todo Kommentar.
+
+Code Kommentar:
+Dieser Kommentar wird beim Kompilieren nicht beachtet und dient der Leserlichkeit des Textes.
+Ich setze für unsere Arbeit einen guten Kommentierstiel voraus.
+Kommentiert wird wie Folgt:
+```
+#!tex
+%Kommentar
+Unkommentierter Text...
+%Kommentar 2
+Unkommentierter Text...
+%Eine Zeile
+%Und die Nächste
+Nur so funktionieren mehrzeilige Kommentare!
+```
+
+Todo Kommentar:
+Der Todo Kommentar wird im Kompilat angezeigt und dient der errinerung.
+Der Syntax Lautet so:
+```
+#!tex
+%Normal
+TextTextText\todo{Kommentart TEXT}
+%Untrennbar mit Wort verbunden
+TextTextText~\todo{Kommentart TEXT}
 ```
