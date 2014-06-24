@@ -26,3 +26,24 @@ Kapitel 1.1:
 
 \include{./Kaptitel/001/11.tex}
 ```
+Jedes Kapitel/Unterkapitel trägt eine Nummer (automatisch...)!
+### Anleitung ###
+Im Folgenden eine kleine Anleitung für LaTeX:
+Im Grunde ist der Syntax recht einfach. Um text zu erzeugen muss man ihn einfach nur eingeben. Dennoch ist es wichtig einiges zu beachten.
+Da ich das Hauptdokument mit Präambel schon erstellt habe hier einfach die Basics.
+Ein neues Kapitel erstellt man mit:
+```
+#!tex
+\section{NAME}
+```
+Unterkapitel mit 
+```
+#!tex
+\subsection{NAME}
+```
+
+Unterunterkapitel mit 
+```
+#!tex
+\subsubsection{NAME}
+```
