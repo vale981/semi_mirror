@@ -131,3 +131,49 @@ Dazu gibt es mehrere Möglichkeiten:
 \texttt{text}
 ```
 Wir Nutzen aber nur \emph!
+
+#Aufzählung
+Punkte/Itemize:
+
+```
+#!tex
+
+%eine Aufzählung, mit Aufzählungszeichen
+\begin{itemize}
+\item Das erste Item
+\item Das zweite Item
+\item Das dritte Item
+\end{itemize}
+```
+
+Unterpunkte mit Itemize im Itemize:
+
+```
+#!tex
+
+\begin{document}
+\section{Erste Aufzählung}
+Eine mehrfach verschachtelte Aufzählung die beim Programmieren schon fast verwirrend sein kann.
+\begin{itemize}
+\item Erstes Element
+	\begin{itemize}
+		\item Nächste Ebene
+		\item Item in 2. Ebene
+	\end{itemize}
+\item Zweites Element
+\item Drittes Element
+	\begin{itemize}
+		\item Die zweite Ebene
+			\begin{itemize}
+				\item Die dritte Ebene
+				\item Item in 3 Ebene
+			\end{itemize}
+		\item Item in 2. Ebene
+		\item Item in 2. Ebene
+	\end{itemize}
+\item Viertes Element
+\item Fünftes Element
+\end{itemize}
+```
+Daraus resultiert:
+![itemize.jpg](https://bitbucket.org/repo/RAo6K5/images/287777404-itemize.jpg)
