@@ -1,5 +1,5 @@
-#CHAT#
-https://kiwiirc.com/client?settings=d854052727ace58924a60a1c1d9a61ee
+#Forum#
+http://semi.freeforums.net
 
 #Wichtig #
 * Compiler --> XeLaTeX
