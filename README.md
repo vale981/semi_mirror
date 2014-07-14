@@ -1,3 +1,4 @@
+#CHAT#: https://kiwiirc.com/client?settings=d854052727ace58924a60a1c1d9a61ee
 #Wichtig #
 * Compiler --> XeLaTeX
 * Compilierfolge: XeLaTeX --> Bib(la)tex --> XeLaTeX --> XeLaTeX
