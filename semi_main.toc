@@ -1,0 +1,49 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Geschichte der Erzeugung elektrischer Energie}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Aus fossilen Brennstoffen}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.1}Kohle}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.2}Erd\"ol}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.3}Gas}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Nicht fossile Brennstoffe}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1}Erneuerbare Energien}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2}Kernspaltung}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Die Fusionsreaktion}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Physikalische Grundlagen}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Variable Unterpunkte}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Das Fusionskraftwerk}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Aufbau des Fusionskraftwerkes}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Aktuelle Entwicklung}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3}Zuk\"unftige Entwicklungen/Prognosen}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Eventuelle Unterpunkte}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Ausseinandersetzung}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Das Energieproblem}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Vergleich der Energiegewinnungsformen}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Definition Allgemeiner Vergleichspunkte}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Vergleich aller Energiegewinnungsformen}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3}Tiefgr\"undiger Vergleich von Kernfusions- und Kernspaltungskraftwerken}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Das Fusionskraftwerk als saubere L\"osung f\"ur die Zukunft}{25}
