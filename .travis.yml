@@ -15,4 +15,4 @@ script:
   - xelatex -interaction=nonstopmode semi_main.tex
 
 after_script:
-  - echo "Semi" | mutt -a "semi_main.pdf" -s "semi" -- recipient@domain.com
+  - echo "Semi" | mutt -a "semi_main.pdf" -s "semi" -- vale981@gmx.de
