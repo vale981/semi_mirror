@@ -16,8 +16,7 @@ script:
 
 deploy:
   provider: releases
-  user: "vale981"
-  password: "valentin981"
+  api-key: "0e42a55201d6d4f23465902780208ef097eb202f"
   file: "semi_main.tex"
   skip_cleanup: true
   on:
