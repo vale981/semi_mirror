@@ -13,3 +13,13 @@ install:
 script:
   - xelatex -interaction=nonstopmode semi_main.tex
   - xelatex -interaction=nonstopmode semi_main.tex
+
+deploy:
+  provider: releases
+  user: "vale981"
+  password: "valentin981"
+  file: "semi_main.tex"
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
