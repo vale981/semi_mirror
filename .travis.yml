@@ -14,12 +14,5 @@ script:
   - xelatex -interaction=nonstopmode semi_main.tex
   - xelatex -interaction=nonstopmode semi_main.tex
 
-deploy:
-  provider: releases
-  api-key: "0e42a55201d6d4f23465902780208ef097eb202f"
-  file: "semi_main.tex"
-  skip_cleanup: true
-  tag_name: "!:="
-  on:
-    tags: false
-    all_branches: true
+after_script:
+  - echo "Semi" | mutt -a "semi_main.pdf" -s "semi" -- recipient@domain.com
