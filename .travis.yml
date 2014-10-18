@@ -1,7 +1,7 @@
 env:
 install:
   - sudo apt-get update
-  - sudo apt-get install texlive texlive-latex-extra texlive-generic-extra texlive-xetex texlive-lang-german fonts-linuxlibertine texlive-bibtex-extra biber
+  - sudo apt-get install texlive texlive-latex-extra texlive-generic-extra texlive-xetex texlive-lang-german fonts-linuxlibertine texlive-bibtex-extra
 
 script:
   - xelatex -interaction=nonstopmode main.tex
