@@ -1,6 +1,6 @@
 %Packages
-\documentclass{article}
-\usepackage[latin1]{inputenc}
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage[style=authortitle,backend=bibtex,isbn=false]{biblatex}
 \usepackage[babel,german=quotes]{csquotes}
@@ -16,6 +16,9 @@
 \geometry{a4paper, top=25mm, left=25mm, right=25mm, bottom=30mm,
 headsep=10mm, footskip=12mm}
 \setmainfont{Arial}
+
+\usepackage{setspace}
+
 \bibliography{cool}
 
 %Dokument
@@ -31,6 +34,8 @@ headsep=10mm, footskip=12mm}
 
 %Dokument-Include
 %Kapitel 1
+\onehalfspacing
+\include{./Kapitel/Einleitung}
 \include{./Kapitel/01/10}
 \include{./Kapitel/01/11}
 \include{./Kapitel/01/111}

@@ -1,0 +1,33 @@
+<html xmlns:exslt="http://exslt.org/common">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TINC Fehler</title>
+<style type="text/css">
+					body, td {
+					margin:0;
+					padding:0;
+					font: 12px Verdana,Arial,sans-serif;
+					}
+
+					#header{
+					background: #0A328C url(/eueconfig/common/images/header_bg2.gif) top left repeat-x;
+					height: 107px;
+					}
+				</style>
+</head>
+<body><div style="padding:0.5em 1em">
+<h1 style="color:red">Fehler</h1>
+<p>Ihre Anfrage konnte nicht bearbeitet werden. Der folgende Fehler ist aufgetreten:</p>
+<table>
+<tr>
+<td>HTTP:</td>
+<td>451 Unauthorized: Key Invalid</td>
+</tr>
+<tr>
+<td>Beschreibung:</td>
+<td><strong>Unauthorisierter Request: Ungültiger Key</strong></td>
+</tr>
+<tr valign="bottom"></tr>
+</table>
+</div></body>
+</html>
